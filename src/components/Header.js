@@ -2,7 +2,6 @@ import React from 'react'
 
 const Header = () => {
     return (
-        
         <nav className="navbar navbar-expand-md nav-color">
             <div className="col-md-4 text-md-right text-center">
                 <img 
@@ -13,12 +12,9 @@ const Header = () => {
                 />
             </div>
             <div className="col-md-4  text-center">
-                <center>
-                    
+                <center>                    
                     <h1>Pokédex</h1>
-                    <h6>A React page using the PokéAPI</h6>
-                    
-                
+                    <h6>A React page using the PokéAPI</h6>               
                 </center>
             </div>
             <div className="col-md-4 text-md-left text-center">
@@ -28,12 +24,8 @@ const Header = () => {
                     style={{ width: '5em', height: '5em' }}
                     className="d-inline" 
                 />
-            </div>
-            
-            
-            
-        </nav>
-        
+            </div>       
+        </nav>        
     )
 };
 
